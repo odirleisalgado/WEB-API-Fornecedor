@@ -21,7 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "API - Test Aplicattion", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web API - Fornecedores", Version = "v1" });
 
     var securitySchema = new OpenApiSecurityScheme
     {
